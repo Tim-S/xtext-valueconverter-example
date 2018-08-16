@@ -9,6 +9,6 @@ A small xtext-grammar that parses Numbers in binary- and hexadecimal notation to
 1. Describe Grammar (
 [MyDsl.xtext](org.xtext.example.mydsl/src/org/xtext/example/mydsl/MyDsl.xtext) )
 2. Implement IValueConverterService  ( [MyDslValueConverterService.xtend](org.xtext.example.mydsl/src/org/xtext/example/mydsl/conversion/MyDslValueConverterService.xtend) )
-3. Bind your MyDslValueConverterService in RuntimeModule ( [MyDslRuntimeModule.xtend](org.xtext.example.mydsl/src/org/xtext/example/mydsl/MyDsl.xtextMyDslRuntimeModule.xtend) )
+3. Bind your MyDslValueConverterService in RuntimeModule ( [MyDslRuntimeModule.xtend](org.xtext.example.mydsl/src/org/xtext/example/mydsl/MyDslRuntimeModule.xtend) )
 
 Now you can use your converted Values in your generators ( [MyDslGenerator.xtend](org.xtext.example.mydsl/src/org/xtext/example/mydsl/generator/MyDslGenerator.xtend) ).
